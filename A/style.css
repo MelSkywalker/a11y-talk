@@ -1,0 +1,29 @@
+body, html, .container {
+	height: 100%;
+}
+
+body {
+	background-color: #2f9599;
+}
+
+.container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-a {
+	background-color: #f7db4f;
+	color: #a7225e;
+	width: 200px;
+	height: 60px;
+	border-radius: 6px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button-a:hover {
+	background-color: #a7225e;
+	color: #f7db4f;
+}

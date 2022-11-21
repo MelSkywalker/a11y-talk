@@ -1,0 +1,29 @@
+body, html, .container {
+	height: 100%;
+}
+
+body {
+	background-color: #45ada8;
+}
+
+.container {
+	position: relative;
+}
+
+.button-b {
+	position: absolute;
+	background-color: #45ADA3;
+	color: #45ADBA;
+	border: 0;
+	width: 200px;
+	height: 60px;
+	border-radius: 6px;
+	font-size: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button-b:hover {
+	background-color: #45ADBA;
+	color: #45ADA3;
+}
